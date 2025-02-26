@@ -1,5 +1,6 @@
 export default function addContent() {
   const contentDiv = document.querySelector("#content");
+  contentDiv.innerHTML = "";
 
   const tagLine = document.createElement("div");
   const mainText = document.createElement("h1");
