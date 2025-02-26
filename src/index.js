@@ -1,3 +1,4 @@
 import "./style.css";
+import fun from "./home-page.js";
 
-console.log("Hoi");
+fun();
