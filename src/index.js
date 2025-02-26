@@ -3,8 +3,7 @@ import homePage from "./home-page.js";
 import menu from "./menu.js";
 import about from "./about.js";
 
-// homePage();
-about();
+homePage();
 
 const navBar = document.querySelector("nav");
 
