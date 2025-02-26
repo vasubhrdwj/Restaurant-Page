@@ -5,6 +5,7 @@ import p4 from "../assets/Photos/mochachino-pic.png";
 
 export default function menu() {
   const contentDiv = document.querySelector("#content");
+  contentDiv.innerHTML = "";
 
   const menuBox = document.createElement("div");
   const images = [p1, p2, p3, p4];
@@ -15,7 +16,7 @@ export default function menu() {
   const t3 = ` A strong, concentrated shot of coffee with a deep, intense flavor and a velvety crema.`;
 
   const t4 = ` A delightful mix of espresso, steamed milk, and chocolate, topped with whipped cream.`;
-  
+
   const txt = [t1, t2, t3, t4];
 
   menuBox.classList.add("menuBox");

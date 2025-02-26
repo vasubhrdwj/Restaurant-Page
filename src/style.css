@@ -112,3 +112,12 @@ button:hover {
   opacity: 0.8;
   margin-left: 25%;
 }
+
+.aboutBox {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  height: 80%;
+  margin: 0 20%;
+  position: relative;
+  top: 10%;
+}
