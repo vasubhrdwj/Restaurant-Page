@@ -24,7 +24,9 @@ export default function about() {
   const githubIcon = document.createElement("img");
   const linkedinIcon = document.createElement("img");
   githubIcon.classList.add("icon");
+  githubIcon.classList.add("gh-icon");
   linkedinIcon.classList.add("icon");
+  linkedinIcon.classList.add("li-icon");
   const iconBar = document.createElement("div");
   iconBar.classList.add("icon-bar");
   githubIcon.src = ghIcon;
@@ -36,4 +38,13 @@ export default function about() {
   iconBar.appendChild(linkedinIcon);
   introText.appendChild(iconBar);
   contentDiv.appendChild(aboutBox);
+
+  introText.addEventListener("click", (event) => {
+    if (event.target.classList.contains("gh-icon")) {
+      window.open("https://github.com/vasubhrdwj", "_blank");
+    }
+    if (event.target.classList.contains("li-icon")) {
+      window.open("https://www.linkedin.com/in/vasubhardwajind/", "_blank");
+    }
+  });
 }

@@ -147,6 +147,11 @@ button:hover {
   font-size: 20px;
   line-height: 1.8;
 }
+.icon-bar {
+  align-self: normal;
+  display: flex;
+  justify-content: space-around;
+}
 
 .icon {
   width: 50px;
