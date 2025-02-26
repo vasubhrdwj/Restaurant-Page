@@ -94,9 +94,15 @@ button:hover {
   color: black;
 }
 
+.dish:nth-child(2) > img {
+  margin-top: 8%;
+}
+
 .dish > p {
   width: 50%;
   margin: 10% 25% 0 25%;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .recipe-img {

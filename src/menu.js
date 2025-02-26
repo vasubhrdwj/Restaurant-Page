@@ -8,10 +8,14 @@ export default function menu() {
 
   const menuBox = document.createElement("div");
   const images = [p1, p2, p3, p4];
-  const t1 = `Americano ☕ : A smooth and bold espresso diluted with hot water, giving it a rich yet mild flavor.`;
-  const t2 = `Cappuccino ☕ : A creamy blend of espresso, steamed milk, and a thick layer of frothy foam on top.`;
-  const t3 = `Espresso ☕ : A strong, concentrated shot of coffee with a deep, intense flavor and a velvety crema.`;
-  const t4 = `Mochaccino ☕ : A delightful mix of espresso, steamed milk, and chocolate, topped with whipped cream.`;
+  const t1 = ` A smooth and bold espresso diluted with hot water, giving it a rich yet mild flavor.`;
+
+  const t2 = ` A creamy blend of espresso, steamed milk, and a thick layer of frothy foam on top.`;
+
+  const t3 = ` A strong, concentrated shot of coffee with a deep, intense flavor and a velvety crema.`;
+
+  const t4 = ` A delightful mix of espresso, steamed milk, and chocolate, topped with whipped cream.`;
+  
   const txt = [t1, t2, t3, t4];
 
   menuBox.classList.add("menuBox");
@@ -22,7 +26,7 @@ export default function menu() {
     menuBox.appendChild(dish);
     const img = document.createElement("img");
     const t = document.createElement("p");
-    t.textContent = txt[i]; 
+    t.textContent = txt[i];
     img.classList.add("recipe-img");
     img.src = images[i];
     dish.appendChild(img);
