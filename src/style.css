@@ -90,5 +90,19 @@ button:hover {
 }
 
 .dish {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #fff1d9;
+  color: black;
+}
+
+.dish > p {
+  width: 50%;
+  margin: 10% 25% 0 25%;
+}
+
+.recipe-img {
+  margin-top: 5%;
+  width: 50%;
+  height: auto;
+  opacity: 0.8;
+  margin-left: 25%;
 }
