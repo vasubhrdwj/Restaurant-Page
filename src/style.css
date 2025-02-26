@@ -63,6 +63,10 @@ button:hover {
   background-color: rgba(40, 40, 43, 1);
 }
 
+button:focus {
+  background-color: rgba(25, 25, 112, 1);
+}
+
 #content {
   height: 130%;
   background-color: rgba(220, 220, 220, 0.2);
